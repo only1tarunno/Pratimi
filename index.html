@@ -82,13 +82,13 @@
         <div class="flex xl:gap-6 gap-2">
           <button
             type="button"
-            class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 md:py-[10px] px-3 py-1 text-center bg-transparent hover:bg-blue-700"
+            class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 py-[10px] px-3 text-center bg-transparent hover:bg-blue-700"
           >
             Влез
           </button>
           <button
             type="button"
-            class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 md:py-[10px] px-3 py-1 text-center bg-blue-600 hover:bg-blue-700"
+            class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 py-[10px] px-3 text-center bg-blue-600 hover:bg-blue-700"
           >
             Заяви покана
           </button>
@@ -100,27 +100,163 @@
     <!-- Main Body start here  -->
     <main>
       <!-- hero section start here  -->
-      <section class="container">
-        <div>
-          <h1 class="font-bold text-white lg:text-6xl md:text-4xl text-3xl">
+      <section
+        class="container flex flex-col lg:flex-row items-center justify-between 2xl:px-20 px-5 lg:py-24 py-10 gap-10"
+      >
+        <div
+          class="w-full lg:w-[40%] text-center lg:text-start space-y-3 lg:space-y-6 order-2 lg:order-1"
+        >
+          <h1
+            class="font-bold text-white xl:text-6xl lg:text-5xl md:text-4xl text-3xl"
+          >
             Гоните клиенти за документи?
           </h1>
           <p class="text-landing-300 font-normal lg:text-xl text-base">
             Автоматизирано събиране на документи за счетоводители и фирми.
           </p>
-          <div>
+          <div class="flex gap-4 items-center justify-center lg:justify-start">
             <a
               type="button"
-              class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 md:py-[10px] px-3 py-1 text-center bg-blue-600 hover:bg-blue-700 flex items-center"
+              class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 py-[10px] px-3 text-center bg-blue-600 hover:bg-blue-700 flex items-center gap-2"
             >
               <span>Заяви покана </span
               ><img src="images/arrow-right-outline.svg" class="w-4" alt="" />
             </a>
+            <a
+              type="button"
+              class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 py-[10px] px-3 text-center bg-landing-800 hover:bg-blue-700"
+            >
+              Свържи се с нас
+            </a>
           </div>
         </div>
-        <div><img src="" alt="" /></div>
+        <div class="w-full lg:w-[58%] order-1 lg:order-2">
+          <img src="images/hero.svg" class="w-full" alt="" />
+        </div>
       </section>
       <!-- hero ends here  -->
+      <!-- 1st Card section start here  -->
+      <section
+        class="container items-center justify-between 2xl:px-20 px-5 lg:py-24 py-10 gap-10"
+      >
+        <h2
+          class="text-white xl:text-5xl lg:text-4xl text-2xl text-center font-medium"
+        >
+          Без досадни напомняния
+        </h2>
+        <!-- card items start here  -->
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 lg:pt-16 pt-10"
+        >
+          <!-- item 1  -->
+          <div>
+            <img src="images/service1.svg" class="w-full" alt="" />
+            <h3
+              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
+            >
+              Клиентите ви изпращат документи по имейл
+            </h3>
+            <p
+              class="text-landing-300 text-base font-normal md:text-start text-center"
+            >
+              ...Получавате @pratimi.com имейл, без необходимост да давате
+              достъп до Вашата кутия.
+            </p>
+          </div>
+          <!-- item 2  -->
+          <div>
+            <img src="images/service2.svg" class="w-full" alt="" />
+            <h3
+              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
+            >
+              ...или чрез интерактивният ни Viber чатбот.
+            </h3>
+            <p
+              class="text-landing-300 text-base font-normal md:text-start text-center"
+            >
+              Без необходимост клиентите ви да теглят допълнителни приложения!
+            </p>
+          </div>
+          <!-- item 3  -->
+          <div>
+            <img src="images/service3.svg" class="w-full" alt="" />
+            <h3
+              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
+            >
+              Pratimi категоризира получените документи и ви ги изпраща в Google
+              Drive
+            </h3>
+            <p
+              class="text-landing-300 text-base font-normal md:text-start text-center"
+            >
+              Подредени така, както ви трябват - по фирми, разходи, приходи,
+              банкови извлечения, заплати.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 1st Card section end here  -->
+      <!-- 2nd Card section start here  -->
+      <section
+        class="container items-center justify-between 2xl:px-20 px-5 lg:pb-24 pb-10 gap-10"
+      >
+        <h2
+          class="text-white xl:text-5xl lg:text-4xl text-2xl text-center font-medium"
+        >
+          Без досадни напомняния
+        </h2>
+        <!-- card items start here  -->
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 lg:pt-16 pt-10"
+        >
+          <!-- item 1  -->
+          <div>
+            <img src="images/service1.svg" class="w-full" alt="" />
+            <h3
+              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
+            >
+              Клиентите ви изпращат документи по имейл
+            </h3>
+            <p
+              class="text-landing-300 text-base font-normal md:text-start text-center"
+            >
+              ...Получавате @pratimi.com имейл, без необходимост да давате
+              достъп до Вашата кутия.
+            </p>
+          </div>
+          <!-- item 2  -->
+          <div>
+            <img src="images/service2.svg" class="w-full" alt="" />
+            <h3
+              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
+            >
+              ...или чрез интерактивният ни Viber чатбот.
+            </h3>
+            <p
+              class="text-landing-300 text-base font-normal md:text-start text-center"
+            >
+              Без необходимост клиентите ви да теглят допълнителни приложения!
+            </p>
+          </div>
+          <!-- item 3  -->
+          <div>
+            <img src="images/service3.svg" class="w-full" alt="" />
+            <h3
+              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
+            >
+              Pratimi категоризира получените документи и ви ги изпраща в Google
+              Drive
+            </h3>
+            <p
+              class="text-landing-300 text-base font-normal md:text-start text-center"
+            >
+              Подредени така, както ви трябват - по фирми, разходи, приходи,
+              банкови извлечения, заплати.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 2nd Card section end here  -->
     </main>
     <!-- Main body ends here  -->
 
