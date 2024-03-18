@@ -73,24 +73,24 @@
         <a href="/" class="flex items-center md:space-x-3 space-x-2">
           <img
             src="images/favicon.svg"
-            class="md:h-8 h-6"
+            class="3xl:h-9 md:h-8 h-6"
             alt="Flowbite Logo"
           />
           <span
-            class="self-center md:text-2xl text-lg font-semibold whitespace-nowrap text-white"
+            class="self-center 3xl:text-3xl md:text-2xl text-lg font-semibold whitespace-nowrap text-white"
             >Pratimi</span
           >
         </a>
         <div class="flex xl:gap-6 gap-2">
           <button
             type="button"
-            class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 py-[10px] px-3 text-center bg-transparent hover:bg-blue-700"
+            class="text-white focus:outline-none font-medium rounded-lg xl:text-lg text-sm md:px-5 py-3 px-3 text-center bg-transparent hover:bg-blue-700"
           >
             Влез
           </button>
           <button
             type="button"
-            class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 py-[10px] px-3 text-center bg-blue-600 hover:bg-blue-700"
+            class="text-white focus:outline-none font-medium rounded-lg xl:text-lg text-sm md:px-5 py-3 px-3 text-center bg-blue-600 hover:bg-blue-700"
           >
             Заяви покана
           </button>
@@ -103,30 +103,32 @@
     <main>
       <!-- hero section start here  -->
       <section
-        class="container flex flex-col lg:flex-row items-center justify-between 2xl:px-20 px-5 lg:py-24 py-10 gap-10"
+        class="container flex flex-col lg:flex-row items-center justify-between 4xl:py-28 2xl:px-20 px-5 lg:py-24 py-10 gap-10"
       >
         <div
           class="w-full lg:w-[40%] text-center lg:text-start space-y-3 lg:space-y-6 order-2 lg:order-1"
         >
           <h1
-            class="font-bold text-white xl:text-6xl lg:text-5xl md:text-4xl text-3xl"
+            class="font-bold text-white 3xl:text-[80px] xl:text-6xl lg:text-5xl md:text-4xl text-3xl"
           >
             Гоните клиенти за документи?
           </h1>
-          <p class="text-landing-300 font-normal lg:text-xl text-base">
+          <p
+            class="text-landing-300 font-normal 3xl:text-[26px] lg:text-xl text-base"
+          >
             Автоматизирано събиране на документи за счетоводители и фирми.
           </p>
           <div class="flex gap-4 items-center justify-center lg:justify-start">
             <a
-              type="button"
-              class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 py-[10px] px-3 text-center bg-blue-600 hover:bg-blue-700 flex items-center gap-2"
+              href="#"
+              class="text-white focus:outline-none font-medium rounded-lg 3xl:text-2xl xl:text-lg text-sm md:px-5 py-3 px-3 text-center bg-blue-600 hover:bg-blue-700 flex items-center gap-2"
             >
               <span>Заяви покана </span
               ><img src="images/arrow-right-outline.svg" class="w-4" alt="" />
             </a>
             <a
-              type="button"
-              class="text-white focus:outline-none font-medium rounded-lg text-sm md:px-5 py-[10px] px-3 text-center bg-landing-800 hover:bg-blue-700"
+              href="#"
+              class="text-white focus:outline-none font-medium rounded-lg 3xl:text-2xl xl:text-lg text-sm md:px-5 py-3 px-3 text-center bg-landing-800 hover:bg-blue-700"
             >
               Свържи се с нас
             </a>
@@ -139,12 +141,12 @@
       <!-- hero ends here  -->
       <!-- 1st Card section start here  -->
       <section
-        class="container items-center justify-between 2xl:px-20 px-5 lg:py-24 py-10 gap-10"
+        class="container items-center justify-between 2xl:px-16 px-5 lg:py-16 py-10 gap-10"
       >
         <h2
-          class="text-white xl:text-5xl lg:text-4xl text-2xl text-center font-medium"
+          class="text-white xl:text-5xl 3xl:text-6xl lg:text-5xl md:text-4xl text-2xl text-center font-medium"
         >
-          Без досадни напомняния
+          Какво е Pratimi и как работи?
         </h2>
         <!-- card items start here  -->
         <div
@@ -153,57 +155,63 @@
           <!-- item 1  -->
           <div>
             <img src="images/service1.svg" class="w-full" alt="" />
-            <h3
-              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
-            >
-              Клиентите ви изпращат документи по имейл
-            </h3>
-            <p
-              class="text-landing-300 text-base font-normal md:text-start text-center"
-            >
-              ...Получавате @pratimi.com имейл, без необходимост да давате
-              достъп до Вашата кутия.
-            </p>
+            <div class="3xl:pt-8 md:pt-6 pt-4 3xl:pr-12 xl:pr-5">
+              <h3
+                class="md:text-start text-center text-white 3xl:text-[32px] 3xl:leading-10 md:text-2xl text-xl font-medium 3xl:pb-6 md:pb-4 pb-2"
+              >
+                Клиентите ви изпращат документи по имейл
+              </h3>
+              <p
+                class="text-landing-300 3xl:text-xl text-base font-normal md:text-start text-center"
+              >
+                ...Получавате @pratimi.com имейл, без необходимост да давате
+                достъп до Вашата кутия.
+              </p>
+            </div>
           </div>
           <!-- item 2  -->
           <div>
             <img src="images/service2.svg" class="w-full" alt="" />
-            <h3
-              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
-            >
-              ...или чрез интерактивният ни Viber чатбот.
-            </h3>
-            <p
-              class="text-landing-300 text-base font-normal md:text-start text-center"
-            >
-              Без необходимост клиентите ви да теглят допълнителни приложения!
-            </p>
+            <div class="3xl:pt-8 md:pt-6 pt-4 3xl:pr-12 xl:pr-5">
+              <h3
+                class="md:text-start text-center text-white 3xl:text-[32px] 3xl:leading-10 md:text-2xl text-xl font-medium 3xl:pb-6 md:pb-4 pb-2"
+              >
+                ...или чрез интерактивният ни Viber чатбот.
+              </h3>
+              <p
+                class="text-landing-300 3xl:text-xl text-base font-normal md:text-start text-center"
+              >
+                Без необходимост клиентите ви да теглят допълнителни приложения!
+              </p>
+            </div>
           </div>
           <!-- item 3  -->
           <div>
             <img src="images/service3.svg" class="w-full" alt="" />
-            <h3
-              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
-            >
-              Pratimi категоризира получените документи и ви ги изпраща в Google
-              Drive
-            </h3>
-            <p
-              class="text-landing-300 text-base font-normal md:text-start text-center"
-            >
-              Подредени така, както ви трябват - по фирми, разходи, приходи,
-              банкови извлечения, заплати.
-            </p>
+            <div class="3xl:pt-8 md:pt-6 pt-4 3xl:pr-12 xl:pr-5">
+              <h3
+                class="md:text-start text-center text-white 3xl:text-[32px] 3xl:leading-10 md:text-2xl text-xl font-medium 3xl:pb-6 md:pb-4 pb-2"
+              >
+                Pratimi категоризира получените документи и ви ги изпраща в
+                Google Drive
+              </h3>
+              <p
+                class="text-landing-300 3xl:text-xl text-base font-normal md:text-start text-center"
+              >
+                Подредени така, както ви трябват - по фирми, разходи, приходи,
+                банкови извлечения, заплати.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <!-- 1st Card section end here  -->
       <!-- 2nd Card section start here  -->
       <section
-        class="container items-center justify-between 2xl:px-20 px-5 lg:pb-24 pb-10 gap-10"
+        class="container items-center justify-between 2xl:px-16 px-5 lg:py-16 py-10 gap-10"
       >
         <h2
-          class="text-white xl:text-5xl lg:text-4xl text-2xl text-center font-medium"
+          class="text-white xl:text-5xl 3xl:text-6xl lg:text-5xl md:text-4xl text-2xl text-center font-medium"
         >
           Без досадни напомняния
         </h2>
@@ -214,46 +222,53 @@
           <!-- item 1  -->
           <div>
             <img src="images/service4.svg" class="w-full" alt="" />
-            <h3
-              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
-            >
-              Дефинирате изискуемите документи за всяка фирма
-            </h3>
-            <p
-              class="text-landing-300 text-base font-normal md:text-start text-center"
-            >
-              Банкови извлечения, касови отчети и всичко, което трябва да ви се
-              предоставя редовно.
-            </p>
+            <div class="3xl:pt-8 md:pt-6 pt-4 3xl:pr-12 xl:pr-5">
+              <h3
+                class="md:text-start text-center text-white 3xl:text-[32px] 3xl:leading-10 md:text-2xl text-xl font-medium 3xl:pb-6 md:pb-4 pb-2"
+              >
+                Дефинирате изискуемите документи за всяка фирма
+              </h3>
+              <p
+                class="text-landing-300 3xl:text-xl text-base font-normal md:text-start text-center"
+              >
+                ...Получавате @pratimi.com имейл, без необходимост да давате
+                достъп до Вашата кутия.
+              </p>
+            </div>
           </div>
           <!-- item 2  -->
           <div>
             <img src="images/service5.svg" class="w-full" alt="" />
-            <h3
-              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
-            >
-              ...и клиентите ви получават автоматични напомняния
-            </h3>
-            <p
-              class="text-landing-300 text-base font-normal md:text-start text-center"
-            >
-              Подсещания по имейл и Viber, без необходимост Вие да се
-              занимавате.
-            </p>
+            <div class="3xl:pt-8 md:pt-6 pt-4 3xl:pr-12 xl:pr-5">
+              <h3
+                class="md:text-start text-center text-white 3xl:text-[32px] 3xl:leading-10 md:text-2xl text-xl font-medium 3xl:pb-6 md:pb-4 pb-2"
+              >
+                ...и клиентите ви получават автоматични напомняния
+              </h3>
+              <p
+                class="text-landing-300 3xl:text-xl text-base font-normal md:text-start text-center"
+              >
+                ...Получавате @pratimi.com имейл, без необходимост да давате
+                достъп до Вашата кутия.
+              </p>
+            </div>
           </div>
           <!-- item 3  -->
           <div>
-            <img src="images/service3.svg" class="w-full" alt="" />
-            <h3
-              class="md:text-start text-center text-white md:text-2xl text-lg font-medium md:pt-6 pt-4 md:pb-4 pb-2"
-            >
-              ...докато не изпратят всичко необходимо
-            </h3>
-            <p
-              class="text-landing-300 text-base font-normal md:text-start text-center"
-            >
-              С ясен изглед върху това кой с какво закъснява
-            </p>
+            <img src="images/service6.svg" class="w-full" alt="" />
+            <div class="3xl:pt-8 md:pt-6 pt-4 3xl:pr-12 xl:pr-5">
+              <h3
+                class="md:text-start text-center text-white 3xl:text-[32px] 3xl:leading-10 md:text-2xl text-xl font-medium 3xl:pb-6 md:pb-4 pb-2"
+              >
+                ...докато не изпратят всичко необходимо
+              </h3>
+              <p
+                class="text-landing-300 3xl:text-xl text-base font-normal md:text-start text-center"
+              >
+                ...Получавате @pratimi.com имейл, без необходимост да давате
+                достъп до Вашата кутия.
+              </p>
+            </div>
           </div>
         </div>
       </section>
