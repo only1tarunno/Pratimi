@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon  -->
+    <link rel="icon" href="images/favicon.svg" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Flow Bite  -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind custom class -->
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            center: true,
+          },
+
+          screens: {
+            sm: "600px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1280px",
+            "2xl": "1440px",
+          },
+          extend: {
+            colors: {
+              "landing-900": " #111928",
+              "landing-800": " #1F2D47",
+              "landing-700": " #314872",
+              "landing-600": " #496CAB",
+              "landing-500": " #6281BC",
+              "landing-400": " #7E98C8",
+              "landing-300": " #A9BADA",
+              "landing-200": " #C6D1E7",
+              "landing-100": " #E2E8F3",
+              "landing-50 ": "#F2F6FD",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="bg-landing-900">
+    <!-- header start here  -->
+    <header class="w-full z-20 top-0 start-0">
+      <div
+        class="flex flex-wrap items-center justify-between container 2xl:px-20 px-5 py-4"
+      >
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="images/favicon.svg" class="h-8" alt="Flowbite Logo" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap text-white"
+            >Pratimi</span
+          >
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button
+            type="button"
+            class="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
+          >
+            Get started
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- header ends here  -->
+
+    <!-- Main Body start here  -->
+    <main></main>
+    <!-- Main body ends here  -->
+
+    <!-- Footer start here  -->
+    <footer></footer>
+    <!-- Footer ends here  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
