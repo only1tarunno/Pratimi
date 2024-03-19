@@ -10,10 +10,33 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.cta {
+  background-image: url("../images/cta1920.png");
+  min-height: 618px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+#discount {
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width: 1600px) {
+  #discount {
+    top: -30px;
+  }
+}
 @media (max-width: 1440px) {
   .security {
     background-image: url("../images/securitylaptop.png");
     min-height: 627px;
+  }
+  .cta {
+    background-image: url("../images/cta1440.png");
+    min-height: 464px;
   }
 }
 @media (max-width: 1280px) {
@@ -26,5 +49,8 @@
 @media (max-width: 1024px) {
   .security {
     background-position: left center;
+  }
+  #discount {
+    top: -25px;
   }
 }
