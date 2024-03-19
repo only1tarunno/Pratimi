@@ -19,6 +19,13 @@
   display: flex;
   align-items: center;
 }
+.serviceCard {
+  transition: 0.3s all ease-in-out;
+}
+
+.serviceCard:hover .imgContainer {
+  background-color: #3148721c;
+}
 .contact {
   background-image: url("../images/contactBg1920.png");
   min-height: 852px;
@@ -29,6 +36,7 @@
 .inner-conatct {
   min-height: 852px;
 }
+
 #discount {
   top: -34px;
   left: 50%;
