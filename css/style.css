@@ -19,6 +19,16 @@
   display: flex;
   align-items: center;
 }
+.contact {
+  background-image: url("../images/contactBg1920.png");
+  min-height: 852px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner-conatct {
+  min-height: 852px;
+}
 #discount {
   top: -34px;
   left: 50%;
@@ -38,12 +48,26 @@
     background-image: url("../images/cta1440.png");
     min-height: 464px;
   }
+  .contact {
+    background-image: url("../images/contact1440.png");
+    min-height: 639px;
+  }
+  .inner-conatct {
+    min-height: 639px;
+  }
 }
 @media (max-width: 1280px) {
   .security {
     background-image: url("../images/securitysmall.png");
     min-height: 557px;
     background-size: cover;
+  }
+  .contact {
+    background-position: right center;
+    min-height: 500px;
+  }
+  .inner-conatct {
+    min-height: 500px;
   }
 }
 @media (max-width: 1024px) {
